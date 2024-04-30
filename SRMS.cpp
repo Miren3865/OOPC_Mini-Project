@@ -1,4 +1,4 @@
-//PRO,23CS,23CSent Record Management System using C++
+//23CS,Student Record Management System using C++
 //23CS084,23CS090,23CS105
 #include<iostream>
 using namespace std;

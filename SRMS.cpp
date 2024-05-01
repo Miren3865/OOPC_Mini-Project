@@ -99,7 +99,8 @@ void update()
 {
 if(total==0)
 {
-cout<<"No data is entered"<<endl;
+cout<<"There Is Not Entered Data"<<endl;
+cout<<"Please Enter Data First!!"<<endl;
 }
 else{
 string rollno;
@@ -138,7 +139,8 @@ void Delete()
 {
 if(total==0)
 {
-cout<<"No data is entered yet"<<endl;
+cout<<"There Is Not Entered Data"<<endl;
+cout<<"Please Enter Data First!!"<<endl;
 }
 else
 {

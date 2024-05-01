@@ -6,7 +6,7 @@ int total=0; //to store all data
 void enter()
 {
 int ch=0;
-cout<<"How many students do u want to enter??"<<endl;
+cout<<"Enter The Number Of Students You Want To Enter::"<<endl;
 cin>>ch;
 if(total==0)
 {
@@ -81,7 +81,7 @@ cout<<"Please Press 1 To Enter The Data!!"<<endl;
 else
 {
 string rollno;
-cout<<"Enter the roll no of student"<<endl;
+cout<<"Enter The Roll No Of Student::2"<<endl;
 cin>>rollno;
 for(int i=0;i<total;i++)
 {

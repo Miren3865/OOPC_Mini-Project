@@ -167,13 +167,13 @@ int value;
 while(true) //always in Loop
 {
 cout<<endl;
-cout<<"(1) For Enter Data"<<endl;
-cout<<"(2) For Show Data"<<endl;
-cout<<"(3) For Search Data"<<endl;
-cout<<"(4) For Update Data"<<endl;
-cout<<"(5) For Delete Data"<<endl;
-cout<<"(6) For Quit"<<endl;
-cout<<"------------------------------------------------------------------------------"<<endl
+cout<<"(1) For Enter Data"<<endl<<endl;
+cout<<"(2) For Show Data"<<endl<<endl;
+cout<<"(3) For Search Data"<<endl<<endl;
+cout<<"(4) For Update Data"<<endl<<endl;
+cout<<"(5) For Delete Data"<<endl<<endl;
+cout<<"(6) For Quit"<<endl<<endl<<endl;
+cout<<"------------------------------------------------------------------------------"<<endl<<endl;
 cin>>value;
 switch(value)
 {

@@ -26,6 +26,7 @@ cout<<"Enter Mobile No.:: "<<endl;
 cin>>mobile_no[i];
 cout<<"Enter The Year Of Admission:: "<<endl;
 cin>>admission_year[i];
+cout<<"---------------------------------------------------------------------------------"<<endl<<endl;
 }
 }
 else
@@ -46,6 +47,7 @@ cout<<"Enter Mobile No.:: ";
 cin>>mobile_no[i];
 cout<<"Enter The Year Of Admission:: ";
 cin>>admission_year[i];
+cout<<"---------------------------------------------------------------------------------"<<endl<<endl;
 }
 total=ch+total; //making choice
 }
@@ -68,6 +70,7 @@ cout<<"Class:: "<<Class[i]<<endl;
 cout<<"Course:: "<<course[i]<<endl;
 cout<<"Mobile No.:: "<<mobile_no[i]<<endl;
 cout<<"Admission Year:: "<<admission_year[i]<<endl;
+cout<<"---------------------------------------------------------------------------------"<<endl<<endl;
 }
 }
 }
@@ -93,6 +96,7 @@ cout<<"Class:: "<<Class[i]<<endl;
 cout<<"Course:: "<<course[i]<<endl;
 cout<<"Mobile No.:: "<<mobile_no[i]<<endl;
 cout<<"Admission Year:: "<<admission_year[i]<<endl;
+cout<<"---------------------------------------------------------------------------------"<<endl<<endl;
 }
 }
 }
@@ -173,7 +177,7 @@ cout<<"(3) For Search Data"<<endl<<endl;
 cout<<"(4) For Update Data"<<endl<<endl;
 cout<<"(5) For Delete Data"<<endl<<endl;
 cout<<"(6) For Quit"<<endl<<endl<<endl;
-cout<<"------------------------------------------------------------------------------"<<endl<<endl;
+cout<<"---------------------------------------------------------------------------------"<<endl<<endl;
 cin>>value;
 switch(value)
 {

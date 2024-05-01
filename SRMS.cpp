@@ -81,7 +81,7 @@ cout<<"Please Press 1 To Enter The Data!!"<<endl;
 else
 {
 string rollno;
-cout<<"Enter The Roll No Of Student::2"<<endl;
+cout<<"Enter The Roll No Of Student::"<<endl;
 cin>>rollno;
 for(int i=0;i<total;i++)
 {
@@ -106,7 +106,7 @@ cout<<"Please Press 1 To Enter The Data!!"<<endl;
 }
 else{
 string rollno;
-cout<<"Enter the roll no of student which you want to update"<<endl;
+cout<<"Enter The Roll No Of Student Which You Want To Update"<<endl;
 cin>>rollno;
 for(int i=0;i<total;i++)
 {

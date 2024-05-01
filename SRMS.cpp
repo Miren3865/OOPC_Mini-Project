@@ -172,7 +172,8 @@ cout<<"(2) For Show Data"<<endl;
 cout<<"(3) For Search Data"<<endl;
 cout<<"(4) For Update Data"<<endl;
 cout<<"(5) For Delete Data"<<endl;
-cout<<"(6) For Quit"<<endl<<endl;
+cout<<"(6) For Quit"<<endl;
+cout<<"------------------------------------------------------------------------------"<<endl
 cin>>value;
 switch(value)
 {

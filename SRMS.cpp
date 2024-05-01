@@ -55,7 +55,7 @@ void show()
 if(total==0)
 {
 cout<<"The Data Is Not Entered Yet"<<endl;
-cout<<"Please Enter Data First!!"<<endl;
+cout<<"Please Press 1 To Enter The Data!!"<<endl;
 }
 else
 {
@@ -76,7 +76,7 @@ void search()
 if(total==0)
 {
 cout<<"The Data Is Not Entered Yet"<<endl;
-cout<<"Please Enter Data First!!"<<endl;
+cout<<"Please Press 1 To Enter The Data!!"<<endl;
 }
 else
 {
@@ -102,7 +102,7 @@ void update()
 if(total==0)
 {
 cout<<"The Data Is Not Entered Yet"<<endl;
-cout<<"Please Enter Data First!!"<<endl;
+cout<<"Please Press 1 To Enter The Data!!"<<endl;
 }
 else{
 string rollno;
@@ -142,7 +142,7 @@ void Delete()
 if(total==0)
 {
 cout<<"The Data Is Not Entered Yet"<<endl;
-cout<<"Please Enter Data First!!"<<endl;
+cout<<"Please Press 1 To Enter The Data!!"<<endl;
 }
 else
 {
@@ -168,7 +168,7 @@ while(true) //always in Loop
 {
 cout<<endl;
 cout<<"(1) For Enter Data"<<endl;
-cout<<"(2) For Show Data"<endl<<endl;
+cout<<"(2) For Show Data"<<endl;
 cout<<"(3) For Search Data"<<endl;
 cout<<"(4) For Update Data"<<endl;
 cout<<"(5) For Delete Data"<<endl;

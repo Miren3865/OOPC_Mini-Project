@@ -54,7 +54,8 @@ void show()
 {
 if(total==0)
 {
-cout<<"No Data is Entered"<<endl;
+cout<<"The Data Is Not Entered Yet"<<endl;
+cout<<"Please Enter Data First!!"<<endl;
 }
 else
 {
@@ -74,7 +75,8 @@ void search()
 {
 if(total==0)
 {
-cout<<"No data is entered"<<endl;
+cout<<"The Data Is Not Entered Yet"<<endl;
+cout<<"Please Enter Data First!!"<<endl;
 }
 else
 {
@@ -99,7 +101,7 @@ void update()
 {
 if(total==0)
 {
-cout<<"There Is Not Entered Data"<<endl;
+cout<<"The Data Is Not Entered Yet"<<endl;
 cout<<"Please Enter Data First!!"<<endl;
 }
 else{
@@ -139,7 +141,7 @@ void Delete()
 {
 if(total==0)
 {
-cout<<"There Is Not Entered Data"<<endl;
+cout<<"The Data Is Not Entered Yet"<<endl;
 cout<<"Please Enter Data First!!"<<endl;
 }
 else
@@ -165,11 +167,11 @@ int value;
 while(true) //always in Loop
 {
 cout<<endl;
-cout<<"(1) For Enter Data"<<endl<<endl;
-cout<<"(2) For Show Data"<<endl<<endl;
-cout<<"(3) For Search Data"<<endl<<endl;
-cout<<"(4) For Update Data"<<endl<<endl;
-cout<<"(5) For Delete Data"<<endl<<endl;
+cout<<"(1) For Enter Data"<<endl;
+cout<<"(2) For Show Data"<endl<<endl;
+cout<<"(3) For Search Data"<<endl;
+cout<<"(4) For Update Data"<<endl;
+cout<<"(5) For Delete Data"<<endl;
 cout<<"(6) For Quit"<<endl<<endl;
 cin>>value;
 switch(value)
